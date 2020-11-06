@@ -1,0 +1,7 @@
+Trenum/bin/
+Trenum/.vs/
+*.sln
+*.vcxproj
+*.filters
+*.user
+Trenum/bin-int/
