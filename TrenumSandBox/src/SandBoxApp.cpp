@@ -1,7 +1,7 @@
 #include <Trenum.h>
 
 
-class SandBoxApp : public tm::Application
+class SandBoxApp : public Trenum::Application
 {
 public:
 	SandBoxApp()
@@ -15,9 +15,8 @@ public:
 
 };
 
-tm::Application* tm::CreateApplication()
+Trenum::Application* Trenum::CreateApplication()
 {
 	return new SandBoxApp();
 }
-
 

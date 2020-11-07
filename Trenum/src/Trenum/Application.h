@@ -1,7 +1,7 @@
 #pragma once
 #include "EngineCore.h"
 
-namespace tm {
+namespace Trenum {
 	class TM_API Application
 	{
 	public:

@@ -3,11 +3,15 @@
 
 #ifdef TM_PLATFORM_WINDOWS
 
-extern tm::Application* tm::CreateApplication();
+extern Trenum::Application* Trenum::CreateApplication();
 
 int main(int argc, char** argv) {
 
-	auto app = tm::CreateApplication();
+	Trenum::Log::Init();
+	TM_CORE_WARN("Initialized Log!");
+	TM_INFO("Initialized Game Log!");
+
+	auto app = Trenum::CreateApplication();
 
 	app->Run();
 	delete app;

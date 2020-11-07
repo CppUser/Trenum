@@ -1,0 +1,3 @@
+[submodule "Trenum/Externals/vendors/spdlog"]
+	path = Trenum/Externals/vendors/spdlog
+	url = http://github.com/gabime/spdlog

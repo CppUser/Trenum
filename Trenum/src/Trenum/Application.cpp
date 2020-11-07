@@ -1,16 +1,16 @@
 #include "Application.h"
 
-namespace tm {
+namespace Trenum {
 
-	tm::Application::Application()
+	Trenum::Application::Application()
 	{
 	}
 
-	tm::Application::~Application()
+	Trenum::Application::~Application()
 	{
 	}
 
-	void tm::Application::Run()
+	void Trenum::Application::Run()
 	{
 		while (true);
 		
